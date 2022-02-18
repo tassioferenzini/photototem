@@ -1,0 +1,65 @@
+
+body {
+    background-color: white;
+    background-image: url("img/Frame-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center, center;
+    position: relative;
+    background-position: top;
+}
+
+#cronometro
+{
+    position:absolute;
+    float: left;
+    top: 10%;
+    left:40%;
+    border:0px;
+    z-index: 100;
+    font-size: 400px;
+    color: white;
+}
+
+.botao
+{
+    z-index: 100;
+    background: url("img/Camera.png");
+    background-repeat: no-repeat;
+    line-height: 40px;
+    text-decoration: none;
+    display: block;
+    border: 0px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 0px;
+    cursor:pointer;
+}
+
+#msg{
+    position:absolute;
+    float: left;
+    background-repeat: no-repeat;
+    top: 20%;
+    left:30%;
+    border:0px;
+    z-index: 100;
+    font-size: 100px;
+    color: black;
+}
+
+#foto{
+    position: relative;
+    border:0px;
+    z-index: 90;
+}
+
+.botaoface{
+    position: absolute;
+    z-index: 100;
+    top: 600px;
+    left: 45%;
+    border: 0px;
+    height: 100px;
+    width: 160px;
+    cursor:pointer;
+}
